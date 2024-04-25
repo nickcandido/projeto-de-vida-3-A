@@ -6,8 +6,6 @@
 --botao-ativo:#3A375E;
  --botao-inativo: rgba(58, 55, 94, 0.5);
 --botao-fundo:rgba(58, 55, 94, 0.3);
-
-
 }
 
 body{
@@ -19,4 +17,7 @@ body{
 .conteudo-principal{
     display: flex;
 
+    flex-direction: column;
+    justify-content: center;
+    
 }
